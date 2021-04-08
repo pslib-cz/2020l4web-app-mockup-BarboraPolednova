@@ -1,0 +1,380 @@
+* {
+    font-family: 'Press Start 2P', cursive;
+    margin: 0;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #ffc933;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    width: 100%;
+    max-width: 460px;
+    margin: auto;
+    height: 100vh;
+    background-image: url(./img/SPSSE_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 25%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media only screen and (min-width: 540px) {
+    main {
+        max-height: 640px;
+    }
+}
+
+
+.carousel-container {
+    display: inline-flex;
+    overflow-x: auto;
+    width: 100%;
+    scrollbar-width: none;
+    margin-top: 4em;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+h1 {
+    font-size: 1.6rem;
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 1.2rem;
+    padding-top: 50px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    color: #ffc933;
+    line-height: 2rem;
+    text-shadow: 2px -2px 0 #fff;
+}
+
+.carousel-item {
+    margin: 0 30px;
+    display: block;
+    width: 112px;
+    height: 112px;
+    border: 3px solid transparent;
+    border-radius: 8px;
+    background-color: #a254e8;
+}
+
+.carousel-item:focus-within {
+    border: 3px solid #ffc933;
+    border-radius: 8px;
+}
+
+.carousel-item:first-of-type {
+    margin-left: 30%;
+}
+
+.carousel-item:last-of-type {
+    margin-right: 30%;
+}
+
+.carousel-item:last-of-type {
+    margin-right: 35%;
+}
+
+.your-fighter{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.dead-fighter{
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.carousel-item-dk {
+    background-image: url(./img/faces/dk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-dk{
+    background-image: url(./img/faces/dk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-dk{
+    background-image: url(./img/dead_faces/dead_dk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-item-jc {
+    background-image: url(./img/faces/jc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-jc {
+    background-image: url(./img/faces/jc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-jc{
+    background-image: url(./img/dead_faces/dead_jc.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-item-kz {
+    background-image: url(./img/faces/kz.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-kz {
+    background-image: url(./img/faces/kz.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-kz{
+    background-image: url(./img/dead_faces/dead_kz.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-item-kt {
+    background-image: url(./img/faces/kt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-kt {
+    background-image: url(./img/faces/kt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-kt{
+    background-image: url(./img/dead_faces/dead_kt.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-item-st {
+    background-image: url(./img/faces/st.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-st {
+    background-image: url(./img/faces/st.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-st{
+    background-image: url(./img/dead_faces/dead_st.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.carousel-item-kn {
+    background-image: url(./img/faces/kn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-left: 30%;
+}
+
+.your-fighter-kn {
+    background-image: url(./img/faces/kn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.dead-fighter-kn{
+    background-image: url(./img/dead_faces/dead_kn.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.play-button{
+    background-image: url(./components/play_button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 125px;
+    height: 85px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+.score{
+    font-size: 2.5rem;
+}
+
+.main-container-game{
+    position: relative;
+}
+
+.score-game{
+    /* margin-top: 5rem; */
+    position: fixed;
+    top: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main-container-game .your-fighter{
+    position: fixed;
+    left: 20%;
+    transform: translateX(-20%);
+}
+
+.active{
+    display: block;
+}
+.non-active{
+    display: none;
+}
+
+.your-dead{
+    background-image: url(./components/wasted.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 90px;
+}
+
+.play-again-button{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 70px;
+}
+
+.main-container-game{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.stick-top{
+    position: absolute;
+    top: 0%;
+}
+
+.stick-bottom{
+    position: absolute;
+    bottom: 0%;
+}
+
+.stick-top-1{
+    background-image: url(./img/sticks/stick-top-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 65px;
+    height: 260px;
+    left: 10%;
+}
+
+.stick-top-2{
+    background-image: url(./img/sticks/stick-top-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 202px;
+    left: 70%;
+}
+
+/* .stick-top-3{
+    background-image: url(./img/sticks/stick-top-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 131px;
+    left: 110%;
+} */
+
+.stick-bottom-1{
+    background-image: url(./img/sticks/stick-bottom-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 65px;
+    height: 260px;
+    left: 70%;
+}
+
+.stick-bottom-2{
+    background-image: url(./img/sticks/stick-bottom-2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 202px;
+    left: 10%;
+}
+
+
+/* .stick-bottom-3{
+    background-image: url(./img/sticks/stick-bottom-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 60px;
+    height: 131px;
+    left: 110%;
+} */
