@@ -53,6 +53,9 @@ main {
 
 h1 {
     font-size: 1.6rem;
+}
+
+.main-page h1{
     padding-top: 80px;
 }
 
@@ -68,6 +71,12 @@ h2 {
     color: #ffc933;
     line-height: 2rem;
     text-shadow: 2px -2px 0 #fff;
+}
+
+.main-page-home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .carousel-item {
@@ -110,7 +119,7 @@ h2 {
     width: 150px;
     height: 150px;
     position: fixed;
-    top: 50%;
+    top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -258,6 +267,17 @@ h2 {
     margin-top: 70px;
 }
 
+.home-button{
+    background-image: url(./components/new-fighter_button.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    width: 125px;
+    height: 85px;
+    margin: auto;
+    margin-top: 70px;
+}
+
 .score{
     font-size: 2.5rem;
 }
@@ -267,7 +287,6 @@ h2 {
 }
 
 .score-game{
-    /* margin-top: 5rem; */
     position: fixed;
     top: 80px;
     left: 50%;
@@ -277,7 +296,7 @@ h2 {
 .main-container-game .your-fighter{
     position: fixed;
     left: 20%;
-    transform: translateX(-20%);
+    transform: translateX(-20%) rotateX(45deg) skew(-25deg, -10deg);
 }
 
 .active{
@@ -300,6 +319,13 @@ h2 {
     left: 50%;
     transform: translate(-50%);
     bottom: 70px;
+}
+
+.back-to-home{
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 180px;
 }
 
 .main-container-game{
