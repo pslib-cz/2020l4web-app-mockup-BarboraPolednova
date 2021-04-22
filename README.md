@@ -19,7 +19,7 @@ Pro sestavení hracího prostředí jsou k dispozici tři rozdílné velikosti s
 - Za sebou mohou následovat až 3 v řadě jdoucí stejné variace a rozestavění sloupů
 - Maximální dosažitelné skóre je limitováno pouze schopnostmi hráče
 
-Všem šťastlivcům, kteří se s touto hrou setkají :)
+Všem šťastlivcům, kteří se s touto hrou setkají přejeme hodně štěstí :)
 
 
 PS: pokud by někdo jevil zájem o další rozšíření hry, nabízí se zde možnost sdílení výsledů/skóre hry přes školní maily.
