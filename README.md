@@ -14,9 +14,12 @@ Pro sestavení hracího prostředí jsou k dispozici tři rozdílné velikosti s
   - sloup největší a střední velikosti
 - Přímo za sebou jdoucí variace linií nesmí být:
   - v maximálním rozdílu umístění mezery (první co nejvýše a následující nejníže)
+- Věškeré další možné variace uspořádání sloupů by neměly způsobovat nemožnost hraní
+- Pro jednu sloupovou linii je možných 6 různých variant kombinací sloupů a jejich horní/dolní polohy
+- Za sebou mohou následovat až 3 v řadě jdoucí stejné variace a rozestavění sloupů
+- Maximální dosažitelné skóre je limitováno pouze schopnostmi hráče
 
-Věškeré další možné variace uspořádání sloupů by neměly způsobovat nemožnost hraní. 
-
+Všem šťastlivcům, kteří se s touto hrou setkají :)
 
 
 PS: pokud by někdo jevil zájem o další rozšíření hry, nabízí se zde možnost sdílení výsledů/skóre hry přes školní maily.
