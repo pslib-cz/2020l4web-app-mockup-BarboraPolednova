@@ -1,10 +1,7 @@
-# 2020l4web-app-mockup-BarboraPolednova
-2020l4web-app-mockup-BarboraPolednova created by GitHub Classroom
-
-# TPSLIB JUMPUJE
+# PSLIB JUMPUJE
 **Author:** *Barbora Polednová a Julie Sanetrníková*
-## Demo site
-View **[demo typography-css-library site](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** for full preview.
+## Popis hry (aneb vo co tady de)
+Demo site pro zobrazení "finálního" výplodu **[demo typography-css-library site](https://pslib-cz.github.io/2020l4web-typography-css-library-BarboraPolednova/)** for full preview.
 ## Dependecies
 ### CSS files & Scripts
 ```
