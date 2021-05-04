@@ -6,6 +6,7 @@
 html{
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 body{
@@ -13,6 +14,7 @@ body{
     position: relative;
     width: 100%;
     height: 100%;
+    overflow: hidden;
 }
 
 main {
@@ -284,6 +286,7 @@ h2 {
 
 .main-container-game{
     position: relative;
+    overflow: hidden;
 }
 
 .score-game{
@@ -334,6 +337,24 @@ h2 {
     height: 100%;
 }
 
+.stick-container{
+    height: 100%;
+    width: 300%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+@media only screen and (min-width: 640px) {
+    .stick-container{
+        height: 100%;
+        width: 1380px;
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
 .stick-top{
     position: absolute;
     top: 0%;
@@ -341,66 +362,123 @@ h2 {
 
 .stick-bottom{
     position: absolute;
-    bottom: 0%;
+    top: 100%;
 }
 
-.stick-top-1{
+.stick-top-lg{
     background-image: url(./img/sticks/stick-top-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 65px;
     height: 260px;
-    left: 10%;
 }
 
-.stick-top-2{
-    background-image: url(./img/sticks/stick-top-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 60px;
-    height: 202px;
-    left: 70%;
-}
-
-/* .stick-top-3{
+.stick-top-md{
     background-image: url(./img/sticks/stick-top-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 60px;
-    height: 131px;
-    left: 110%;
-} */
+    width: 65px;
+    height: 260px;
+    top: -10%;
+}
 
-.stick-bottom-1{
+.stick-top-sm{
+    background-image: url(./img/sticks/stick-top-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 65px;
+    height: 260px;
+    top: -20%;
+}
+
+.stick-bottom-lg{
     background-image: url(./img/sticks/stick-bottom-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     width: 65px;
     height: 260px;
-    left: 70%;
+    top: 60%;
+    top: -10%;
 }
 
-.stick-bottom-2{
-    background-image: url(./img/sticks/stick-bottom-2.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    width: 60px;
-    height: 202px;
-    left: 10%;
-}
-
-
-/* .stick-bottom-3{
+.stick-bottom-md{
     background-image: url(./img/sticks/stick-bottom-1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
-    width: 60px;
-    height: 131px;
-    left: 110%;
-} */
+    width: 65px;
+    height: 260px;
+    top: 70%;
+}
+
+
+.stick-bottom-sm{
+    background-image: url(./img/sticks/stick-bottom-1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 65px;
+    height: 260px;
+    top: 80%;
+}
+
+.top-1, .bottom-1{
+    left: 5%;
+}
+
+.top-2, .bottom-2{
+    left: 22%;
+}
+
+.top-3, .bottom-3{
+    left: 39%;
+}
+
+.top-4, .bottom-4{
+    left: 56%;
+}
+
+.top-5, .bottom-5{
+    left: 73%;
+}
+
+.top-6, .bottom-6{
+    left: 90%;
+}
+
+/*scrollbar*/
+
+div.carousel-container::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+
+}
+
+div.carousel-container::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(255, 201, 51); 
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+div.carousel-container::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: #a254e8; 
+    -webkit-box-shadow: inset 0 0 3px #ffc933;
+}
+
+div.carousel-container::-webkit-scrollbar-thumb:window-inactive {
+	background: rgba(255, 255, 255, 0.4); 
+}
+
+div.carousel-container::-webkit-scrollbar-thumb:hover {
+    background-color: #743ca5;
+}
+
+.carousel-container {
+    padding-bottom: 15px;
+}
